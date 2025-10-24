@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-from test import WordCloud
+from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from io import StringIO
 
