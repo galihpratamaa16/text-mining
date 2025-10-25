@@ -15,18 +15,15 @@ slang_dict = {
     'udh': 'sudah', 'tpi': 'tapi', 'blm': 'belum', 'bkn': 'bukan', 'krn': 'karena'
 }
 
-# Kamus Sentimen Sederhana Bahasa Indonesia (Lexicon)
 # Skor, Positif = +1, Negatif = -1
 lexicon = defaultdict(int)
 
-# Kata-kata Positif
 pos_words = ['dukung', 'semangat', 'keren', 'bagus', 'setuju', 'terbaik', 'senang', 
              'mantap', 'top', 'bangga', 'berhasil', 'luar biasa', 'cocok', 'juara', 
              'respect', 'sukses', 'terimakasih', 'amin', 'betul', 'wajib', 'terbaik']
 for word in pos_words:
     lexicon[word] = 1
 
-# Kata-kata Negatif
 neg_words = ['pecat', 'keluar', 'out', 'gagal', 'parah', 'buruk', 'kecewa', 'rugi', 
              'malu', 'bodoh', 'salah', 'tidak setuju', 'bohong', 'rusak', 'menghina',
              'tidak', 'kurang', 'sial', 'gila', 'miris', 'jahat', 'hancur', 'tolol',
