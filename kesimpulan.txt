@@ -1,0 +1,19 @@
+KESIMPULAN
+
+Data yang telah dikumpulkan 971 data (komentar TikTok)
+
+Topik/Isu yang diambil => komentar/pendapat masyarakat Indonesia setelah timnas tidak lolos 
+                          kualifikasi Piala Dunia 2026.
+
+Output yang dihasilkan ==> wordcloud & analisis sentiment.
+
+Setelah melakukan text mining dengan isu yang diambil maka analisis sentiment yang didapatan adalah:
+1. 63.67% dari 971 komentar bersifat netral, 32.36% dari 971 komentar bersifat negatif, 
+   3.97% dari 971 komentar bersifat positif
+
+2. Isu ini menciptakan polaritas pendapat yang tidak seimbang; sentimen kritik (Negatif) tiga kali lipat 
+   lebih banyak daripada sentimen dukungan (positif). Pihak yang berwenang (misalnya, manajemen tim atau asosiasi)
+   dapat merasa tidak aman bahwa mayoritas dukungan publik banyak mengkritik mereka, mereka harus memperhatikan
+   kritik yang terfokus dari masyarakat Indonesia khususnya penggemar timnas
+   Secara keseluruhan, suasana komunitas pecinta sepak bola lebih marah dan kecewa 
+   terhadap isu tersebut ketimbang bersemangat dan mendukung
