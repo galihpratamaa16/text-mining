@@ -18,17 +18,17 @@ slang_dict = {
 # Skor, Positif = +1, Negatif = -1
 lexicon = defaultdict(int)
 
-pos_words = ['dukung', 'semangat', 'keren', 'bagus', 'setuju', 'terbaik', 'senang', 
+positive_words = ['dukung', 'semangat', 'keren', 'bagus', 'setuju', 'terbaik', 'senang', 
              'mantap', 'top', 'bangga', 'berhasil', 'luar biasa', 'cocok', 'juara', 
              'respect', 'sukses', 'terimakasih', 'amin', 'betul', 'wajib', 'terbaik']
-for word in pos_words:
+for word in positive_words:
     lexicon[word] = 1
 
-neg_words = ['pecat', 'keluar', 'out', 'gagal', 'parah', 'buruk', 'kecewa', 'rugi', 
+negative_words = ['pecat', 'keluar', 'out', 'gagal', 'parah', 'buruk', 'kecewa', 'rugi', 
              'malu', 'bodoh', 'salah', 'tidak setuju', 'bohong', 'rusak', 'menghina',
              'tidak', 'kurang', 'sial', 'gila', 'miris', 'jahat', 'hancur', 'tolol',
              'taruhan', 'botak', 'kesel', 'usir', 'judol', 'mundur']
-for word in neg_words:
+for word in negative_words:
     lexicon[word] = -1
 
 # PREPROCESSING
